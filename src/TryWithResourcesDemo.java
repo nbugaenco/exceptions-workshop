@@ -26,7 +26,7 @@ public class TryWithResourcesDemo {
 
             System.out.println();
             resource1.useResource(false);
-            resource2.useResource(false);
+            resource2.useResource(true);
 
             System.out.printf("\033[1;32m%nResources are being used.%n\u001B[0m%n");
 

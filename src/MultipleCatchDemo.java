@@ -2,7 +2,7 @@ public class MultipleCatchDemo {
     public static void main(String[] args) {
         try {
             int[] numbers = {1, 2, 3};
-            int result = numbers[5] / 0;
+            int result = numbers[1] / 0;
         } catch (ArrayIndexOutOfBoundsException e) {
             System.err.println("Array index out of bounds: " + e.getMessage());
         } catch (ArithmeticException e) {
